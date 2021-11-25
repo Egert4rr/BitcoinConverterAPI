@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin api</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Bitcoin </h1>
+
+        <form>
+            <input type="number" id="numberOfBitcoins" placeholder="your Bitcoins">
+            <label for="numberOfBitcoins">Amount of Bitcoins</label>
+        </form>
+
+        <form>
+            <select id="CurrencyType">
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+              <option value="USD">USD</option>
+            </select>
+        </form>
+
+        <button class="GetPrice">Convert</button>
+
+        <hr>
+
+        <p class="ConvertedPrice"></p>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
